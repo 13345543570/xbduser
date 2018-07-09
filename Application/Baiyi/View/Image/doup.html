@@ -1,0 +1,118 @@
+<include file="Public/header"/>
+<link rel="stylesheet" type="text/css" href="{$Think.const.ADMIN_JS}imgup/diyUpload/css/webuploader.css">
+<link rel="stylesheet" type="text/css" href="{$Think.const.ADMIN_JS}imgup/diyUpload/css/diyUpload.css">
+<script type="text/javascript" src="{$Think.const.ADMIN_JS}imgup/diyUpload/js/webuploader.html5only.min.js"></script>
+<script type="text/javascript" src="{$Think.const.ADMIN_JS}imgup/diyUpload/js/diyUpload.js"></script>
+
+<div class="panel admin-panel">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>添加图集</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="{:U('Image/imgup')}" enctype="multipart/form-data">
+      <input type="hidden" name="id" value="{$info.id}">
+      <div class="form-group">
+        <div class="label">
+          <label>标题：</label>
+        </div>
+        <div class="field">
+          <input type="text" width="300px" class="input" name="title" value="{$info.title}" data-validate="required:请输入标题" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>封面图片：</label>
+        </div>
+        <div style="float: none;" class="field">
+          <input type="text" id="url1" name="slogo"  class="input tips" style="width:25%; float:left;" value="{$info.img}" data-toggle="hover" data-place="right" data-image="{$info.img}"  />
+          <input type="file" name="logo" class="button bg-blue margin-left" id="image1" value="游览" >
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>上传图片：</label>
+        </div>
+        <div class="field">
+          <div id="test" name="content"></div>
+          <div class="parentFileBox">
+            <ul class="fileBoxUl"></ul>
+          </div>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>上传完成图片：</label>
+        </div>
+        <div class="field">
+          <div class="input" style="height:450px; border:1px solid #ddd;overflow:scroll;">
+            <ul class="imgcontent">
+              <!--<?php if($content){foreach($content as $val){?>
+              <li>
+                <input type="hidden" name="url[]" value="<?php echo $val;?>">
+                <div class="imgst"><img src="<?php echo $url_dir.$val;?>"></div>
+                <div class="delimg"><img src="<?php echo $public_dir;?>/admin/images/x_alt.png"></div>
+              </li>
+              <?php }}?>-->
+              <foreach name="imgs" item="val">
+                <li>
+                	<input type="hidden" name="url[]" value="{$val}">
+                  <div class="imgst"><img src="{$val}"></div>
+                  <div class="delimg"><img src="{$Think.const.ADMIN_IMAGES}x_alt.png"></div>
+                </li>
+               </foreach>
+
+            </ul>
+          </div>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>是否显示：</label>
+        </div>
+        <div class="field">
+          <select name="display" class="dinput">
+            <if condition="$info['display'] eq 2">
+              	<option value="1">显示</option>
+              	<option selected="selected" value="2">不显示</option>
+            <else />
+              	<option selected="selected" value="1">显示</option>
+              	<option value="2">不显示</option>
+            </if> 
+          </select>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<include file="Public/footer"/>
+<script type="text/javascript">
+  //插件上传图片
+  $('#test').diyUpload({
+    url:'{$Think.const.ADMIN_JS}imgup/server/fileupload.php',
+    success:function( data ) {
+      if(data.status == 1){
+        var content = '<li><input type="hidden" name="url[]" value="'+data.msg+'"><div class="imgst"><img src="{$Think.const.DOMAIN}'+data.msg+'"></div><div class="delet" id="delet"></div></li>';
+        $('.imgcontent').append(content);
+      }else if(data.status == 0){
+        layer.alert(data.msg);
+      }
+
+      $('#fileBox_'+ data.id).remove();
+    },
+    error:function( err ) {
+      console.info( err );
+    }
+  });
+
+  asaddimg.del();
+</script>

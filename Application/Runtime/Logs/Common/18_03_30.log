@@ -1,0 +1,12 @@
+[ 2018-03-30T14:52:32+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002485s ]
+ERR: 无法加载模块:Admin
+
+[ 2018-03-30T14:53:03+08:00 ] 127.0.0.1 /adminn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:Adminn
+

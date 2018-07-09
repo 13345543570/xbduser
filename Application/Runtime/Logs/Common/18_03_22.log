@@ -1,0 +1,256 @@
+[ 2018-03-22T11:27:02+08:00 ] 127.0.0.1 /__DOMAIN__/Public/admin/js/special.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:__DOMAIN__
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-03-22T11:27:02+08:00 ] 127.0.0.1 /__DOMAIN__/Public/admin/js/pintuer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:__DOMAIN__
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-03-22T11:27:02+08:00 ] 127.0.0.1 /__DOMAIN__/Public/admin/js/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:__DOMAIN__
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-03-22T11:27:02+08:00 ] 127.0.0.1 /__DOMAIN__/Public/admin/css/pintuer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+ERR: 无法加载模块:__DOMAIN__
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-03-22T11:27:02+08:00 ] 127.0.0.1 /__DOMAIN__/Public/admin/images/toux.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+ERR: 无法加载模块:__DOMAIN__
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-03-22T11:27:02+08:00 ] 127.0.0.1 /__DOMAIN__/Public/admin/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+ERR: 无法加载模块:__DOMAIN__
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-03-22T11:27:02+08:00 ] 127.0.0.1 /__DOMAIN__/Public/admin/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载模块:__DOMAIN__
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-03-22T11:27:02+08:00 ] 127.0.0.1 /__DOMAIN__/Public/admin/images/toux.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:__DOMAIN__
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\mythinkphp\index.php:31) E:\wamp\www\mythinkphp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/girl.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/boy.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/day.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/dtime.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/li.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/vinyl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/icons.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/blogli.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/heart.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:33:49+08:00 ] 127.0.0.1 /Public/home/images/lock.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001418s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:34:54+08:00 ] 127.0.0.1 /Public/home/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:34:54+08:00 ] 127.0.0.1 /Public/home/images/heart.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000322s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001926s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:34:54+08:00 ] 127.0.0.1 /Public/home/images/blogli.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:34:54+08:00 ] 127.0.0.1 /Public/home/images/day.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000356s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002478s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:34:54+08:00 ] 127.0.0.1 /Public/home/images/icons.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:34:54+08:00 ] 127.0.0.1 /Public/home/images/li.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:34:54+08:00 ] 127.0.0.1 /Public/home/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:34:54+08:00 ] 127.0.0.1 /Public/home/images/vinyl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:34:54+08:00 ] 127.0.0.1 /Public/home/images/dtime.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:34:54+08:00 ] 127.0.0.1 /Public/home/images/lock.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:35:10+08:00 ] 127.0.0.1 /Public/home/images/heart.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:35:10+08:00 ] 127.0.0.1 /Public/home/images/lock.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:35:10+08:00 ] 127.0.0.1 /Public/home/images/dtime.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:35:10+08:00 ] 127.0.0.1 /Public/home/images/li.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001610s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:35:10+08:00 ] 127.0.0.1 /Public/home/images/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:35:10+08:00 ] 127.0.0.1 /Public/home/images/blogli.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:35:10+08:00 ] 127.0.0.1 /Public/home/images/vinyl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:35:10+08:00 ] 127.0.0.1 /Public/home/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:35:10+08:00 ] 127.0.0.1 /Public/home/images/icons.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Public
+
+[ 2018-03-22T11:35:10+08:00 ] 127.0.0.1 /Public/home/images/day.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001755s ]
+ERR: 无法加载模块:Public
+

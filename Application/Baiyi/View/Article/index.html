@@ -1,0 +1,107 @@
+<include file="Public/header"/>
+<link href="{$Think.const.ADMIN_JS}rili/css/lyz.calendar.css" rel="stylesheet" type="text/css"/>
+<script src="{$Think.const.ADMIN_JS}rili/js/lyz.calendar.min.js" type="text/javascript"></script>
+
+
+<div class="panel admin-panel">
+  <div class="panel-head"><strong class="icon-reorder"> 图集管理</strong> 
+  </div>
+  <form method="get" action="{:U('Article/index')}" enctype="multipart/form-data">
+    <div class="padding border-bottom">
+
+      <ul class="search" style="padding-left:10px;">
+        <li>搜索：</li>
+        <li>
+       		<select name="type" class="input" style="width:200px; line-height:17px;">
+              	<option value="">请选择栏目</option>
+              <foreach name="type" item="val">
+                <if condition="$val['id'] eq $typeid">
+          			<option selected="selected" value="{$val.id}">{$val.name}<option>
+                <else />
+                  	<option value="{$val.id}">{$val.name}<option>
+                </if>	
+              </foreach> 
+            </select>
+        </li>
+        <li>
+        	<select name="display" class="input" style="width:200px;">
+              	<option value=''>请选择文章是否显示</option>
+              	<if condition="$display eq 2">
+                    <option value="1">显示</option>
+                    <option selected="selected" value="2">不显示</option>
+                <elseif condition="$display eq 1" />
+                    <option selected="selected" value="1">显示</option>
+                    <option value="2">不显示</option>
+                <else />
+                  	<option value="1">显示</option>
+                    <option value="2">不显示</option>
+                </if> 
+            </select>
+        </li>
+        <li>日期：</li>
+        <li>
+          <input id="txtBeginDate" name="date" style="width: 188px;" class="input" value="{$date}"/>
+        </li>
+        <li>
+          <input type="text" placeholder="请输入搜索关键字" name="keywords" class="input"
+                 style="width:250px; line-height:17px;display:inline-block" value="{$keywords}"/>
+          <input type="submit" class="button border-main icon-search" value="搜索">
+        </li>
+      </ul>
+    </div>
+  </form>
+
+  <table class="table table-hover text-center">
+    <tr>
+      <th width="100" style="text-align:left; padding-left:20px;">ID</th>
+      <th>图片</th>
+      <th>标题</th>
+      <th>栏目</th>
+      <th>作者</th>
+      <th>来源</th>
+      <th>是否显示</th>
+      <th width="10%">更新时间</th>
+      <th width="310">操作</th>
+    </tr>
+    <volist name="list" id="vo">
+      <foreach name="data" item="val">
+        <tr>
+          <td style="text-align:left; padding-left:20px;"><!--<input type="checkbox" name="id[]" value=""/>-->
+            {$val.id}
+          </td>
+          <td width="10%"><img src="{$val.img}" alt="" width="70" height="50"/>
+          </td>
+          <td><a target="_blank"  href="">{$val.title}</a></td>
+          <td>{$val.typename}</td>
+          <td>{$val.author}</td>
+          <td>{$val.source}</td>
+          <td><if condition="$val['display'] eq 2">不显示<else />显示</if></td>
+          <td>{$val.addtime}</td>
+          <td>
+            <div class="button-group"><a class="button border-main"
+                                         href="{:U('Article/doup',array('id'=>$val['id']))}"><span
+                    class="icon-edit"></span> 修改</a> <a class="button border-red"
+                                                        href="javascript:void(0)"
+                                                        onclick="return del({$val.id},'Article')"><span
+                    class="icon-trash-o"></span> 删除</a></div>
+          </td>
+        </tr>
+     </foreach>
+      <tr>
+        <td colspan="9">
+          {$fenye}
+        </td>
+      </tr>
+  </table>
+</div>
+<include file="Public/footer"/>
+<script>
+  ascontent_manage.rili();
+  $(function(){
+    var left = $('input[name="date"]').offset().left;
+    var top = $('input[name="date"]').offset().top;
+    var height = $('input[name="date"]').offset().height;
+    $('#divDate').css({'top':(top+height+10),'left':left});
+  })
+
+</script>
